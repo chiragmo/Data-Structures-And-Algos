@@ -1,5 +1,20 @@
  /* This is a non-strict api based implementation of linked lists in java.
     Dont miss out the function swapIndexesValue, its really cool on data heavy linked list.
+    
+     The following methods are available for use:
+   1. printList() ->prints all the values in the list
+   2. listSize() ->returns the total number of elements
+   3. isEmpty() ->return boolean if linkedList empty or not
+   4. isPresent(anyNumberToBeCheckedIfPresentInListOrNot) ->return boolean
+   5. insertTail(numberToBeInstertedAtTheEndOfList)
+   6. insertAtIndex(numberToBeInserted, indexPosition)
+   7. deleteAtIndex(indexPositionAtWhichNumberToBeDeleted)
+   8. deleteValue(numberToBeDeletedInLinkedList)
+   9. swapIndexesValue(lowerIndex, higherIndex) ->It does not swap the data. The references to the given index position changes in the linked list changes.
+      Condition of Usage ? If each element is very data heavy, copying is time consuming.
+      swapIndexesValue is used in such cases wherein only references to the elements changes.
+
+
  */
  
  class Node{
